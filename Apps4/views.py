@@ -10,11 +10,11 @@ def webpage(request):
     else:
         city = 'new delhi'
 
-    url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=9d7734b4df2637bad46d1ca7271211f2'
+    url = f''
     PARAMS = {'units': 'metric'}
 
-    API_KEY = 'AIzaSyBUch4YCr2wuSrVceEN_wVD40hr8FqJEss'
-    SEARCH_ENGINE_ID = '401b01f91c14b4412'
+    API_KEY = ''
+    SEARCH_ENGINE_ID = ''
 
     query = city + " 1920x1080"
     page = 1
